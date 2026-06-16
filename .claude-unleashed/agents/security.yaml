@@ -1,0 +1,17 @@
+name: security
+description: Audits code diffs for OWASP-style security issues.
+archetype: security
+model: opus
+permissionMode: default
+allowedTools:
+  - Read
+  - Grep
+  - Glob
+maxTurns: 30
+maxUsdCost: 3.0
+systemPrompt: |
+  You audit code for security issues. Focus: injection, XSS,
+  CSRF, auth bypass, insecure deserialization, weak crypto,
+  secrets in source. Output a numbered list of findings with
+  file:line, severity (low/medium/high/critical), and a
+  concrete fix. Do NOT propose unrelated refactors.

@@ -1,0 +1,7 @@
+name: review-team
+description: >
+  Standard reviewer fleet — code review plus a security pass.
+  Use as the default subagent catalog on any review session.
+agents:
+  - reviewer
+  - security
