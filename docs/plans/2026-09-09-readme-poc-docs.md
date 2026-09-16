@@ -4,7 +4,10 @@
 
 Date: 2026-09-09
 Branch: main
-Status: ready for executor
+Status: superseded by docs/plans/2026-09-16-readme-poc-docs.md — this
+plan's acceptance check does not pass against its own prescribed README
+content (it requires "intentionally" but the README text only contains
+"intentional"). Do not execute this file; use the 2026-09-16 plan instead.
 
 ## Problem
 
